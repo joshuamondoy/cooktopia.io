@@ -16,13 +16,13 @@ h1 {
 }
 .recipes-container {
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
     margin: 3rem;
 }
 .recipe {
-    max-width: 400px;
+    width: 350px;
     margin-bottom: 2rem;
+    margin: 2rem;
 }
 img {
     width: 100%;
