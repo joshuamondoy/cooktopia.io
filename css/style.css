@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* index.html */
+h1 {
+    text-align: center;
+    margin: 10rem;
+    
+}
+.recipes-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.recipe {
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+img {
+    width: 100%;
+}
