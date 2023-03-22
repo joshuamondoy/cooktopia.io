@@ -12,7 +12,7 @@ a {
 
 /* index.html */
 .main-container{
-    background: url("https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")no-repeat center/cover;
+    background: url("../img/bg.jpg")no-repeat center/cover;
     height: 50vh;
     display: flex;
     justify-content: center;
