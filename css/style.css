@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 * {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    font-family: sans-serif;
 }
 
 a {
@@ -9,11 +11,28 @@ a {
 }
 
 /* index.html */
-h1 {
+.main-container{
+    background: url("https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")no-repeat center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#title {
     text-align: center;
-    margin: 10rem;
+    font-size: 5rem;
+    font-weight: 100;
     
 }
+.subtitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+.logo {
+    width: 150px;
+}
+
 .recipes-container {
     display: flex;
     flex-wrap: wrap;
@@ -26,4 +45,14 @@ h1 {
 }
 img {
     width: 100%;
+}
+
+/* recipes */
+.recipe-container {
+    display: flex;
+    margin: 3rem;
+}
+.right-panel {
+    box-shadow: 5px 10px 18px #888888;
+    height: fit-content;
 }
